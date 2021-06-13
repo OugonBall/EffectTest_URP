@@ -15,11 +15,11 @@ A:/UnityProjects/UnityEffectTest_URP_git
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54737
+56939
 Successfully changed project path to: A:/UnityProjects/UnityEffectTest_URP_git
 A:/UnityProjects/UnityEffectTest_URP_git
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 308.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path A:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,115 +35,115 @@ Initialize mono
 Mono path[0] = 'A:/Unity/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'A:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'A:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: A:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001826 seconds.
+Registered in 0.001316 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 160.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  1.579 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003427 seconds.
+Registered in 0.005836 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 175.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 127.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.804 seconds
+- Completed reload, in  1.960 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3990 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 160.6 MB.
-System memory in use after: 158.6 MB.
+System memory in use after: 158.5 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 4413.
-Total: 3.993300 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.233800 ms MarkObjects: 2.038000 ms  DeleteObjects: 1.260300 ms)
+Total: 4.022500 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.229000 ms MarkObjects: 2.275900 ms  DeleteObjects: 1.162500 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Materials/Effect/Portal.mat
   artifactKey: Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.mat using Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe1a1800c29eb54ce86525e0ca20ae9') in 0.350219 seconds 
+Start importing Assets/Materials/Effect/Portal.mat using Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44b6c4775c8897204d624af30127c3e') in 0.606705 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b944ac48f175d4f2c79663603e719c3') in 0.028333 seconds 
+  Time since last request: 264.615861 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4562ab05fe525b9707574132804a9516') in 0.011795 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.463057 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db55618e53354afd18ddf514324fb08') in 0.002499 seconds 
+  Time since last request: 77.608556 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c070404ac43e1b65adf31b9f0699920') in 0.008312 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.017154 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fded2f385147ae80c951bfe28eec32') in 0.002790 seconds 
+  Time since last request: 23.893627 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c429497fa9e59855353166bf293fff19') in 0.002786 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.044873 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57864c9394bc8bf6d7be3772c4fa726') in 0.002527 seconds 
+  Time since last request: 8.940041 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b33adf4d6fc643987f313c660b0e92') in 0.002768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.085450 seconds.
+  Time since last request: 9.972059 seconds.
   path: Assets/Materials/Effect/Portal.shadergraph
   artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a91245f2a5091a904b3c2957feaac4d') in 0.002489 seconds 
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda7512e092c768873b817ebf80e3ed8') in 0.007183 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.271732 seconds.
+  Time since last request: 31.507972 seconds.
   path: Assets/Materials/Effect/Portal.shadergraph
   artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a3664c0fe682cee6cefc58d7d2c7a6') in 0.003118 seconds 
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf78bef032b6f9aa49ecdc85ed2a9a3e') in 0.002859 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.794909 seconds.
+  Time since last request: 12.541839 seconds.
   path: Assets/Materials/Effect/Portal.shadergraph
   artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfcf85fcc40fe54b646c6e8202eedfc') in 0.002860 seconds 
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f8559b79632d9b35df92a1cfa352c4') in 0.002739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.515776 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8b770abd15d1aefddbbbc912644aa4') in 0.003949 seconds 
+  Time since last request: 1351.786935 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637155d6565899528574416015ff1dd1') in 0.007250 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.166886 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148c69feafe48331a2ad8b61e7691ff2') in 0.003222 seconds 
+  Time since last request: 846.640538 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3ca6eb3a8fc5b27d2408ecb8703908') in 0.019154 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.818697 seconds.
-  path: Assets/Materials/Effect/Portal.shadergraph
-  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46de402f50d31f725f84107c901b34') in 0.002639 seconds 
+  Time since last request: 47.777007 seconds.
+  path: Assets/Materials/Effect/Portal.mat
+  artifactKey: Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.mat using Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dcbc2b81c5d2100971eb15e930a6d8') in 0.854280 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006065 seconds.
+Registered in 0.004137 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.512 seconds
+- Completed reload, in  1.567 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
@@ -154,46 +154,112 @@ System memory in use before: 163.6 MB.
 System memory in use after: 161.6 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4494.
-Total: 5.834600 ms (FindLiveObjects: 0.633900 ms CreateObjectMapping: 0.317700 ms MarkObjects: 2.783800 ms  DeleteObjects: 2.083200 ms)
+Total: 5.168300 ms (FindLiveObjects: 1.272500 ms CreateObjectMapping: 0.421400 ms MarkObjects: 2.350000 ms  DeleteObjects: 1.121500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.666442 seconds.
+  Time since last request: 249.161051 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98514a4c726ffbcdb9deb5a08860f382') in 0.044830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.472656 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc382f8d671bfde5d86aee12c8d1cbf') in 0.013668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.428771 seconds.
+  path: Assets/Scenes/EffectTest.unity
+  artifactKey: Guid(6f34f50f4bf23ca49ac9d1d5facb32e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EffectTest.unity using Guid(6f34f50f4bf23ca49ac9d1d5facb32e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aa275e15912456eff595832aabead2') in 0.007315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.923125 seconds.
+  path: Assets/Materials/Effect/Portal 1.shadergraph
+  artifactKey: Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal 1.shadergraph using Guid(8576a9428036d374ab0700d1cc4bee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9af0d7c9d4264987989d9bd19dbe21') in 0.005636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.802565 seconds.
   path: Assets/Materials/Effect/Portal.shadergraph
   artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2487031df3f3de933641d916e1f20ec0') in 0.017128 seconds 
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06e2484286643a041d3177011ac42a2') in 0.184489 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 265.581342 seconds.
-  path: Assets/Materials/Effect/Noise01.png
-  artifactKey: Guid(70f892a2577b9844690b704a675b5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Noise01.png using Guid(70f892a2577b9844690b704a675b5bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184481253e9163ad9e0a2f5771314b28') in 0.155090 seconds 
+  Time since last request: 67.901504 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c8f1ef50a3fc5c04ebd7078f7ec9a') in 0.038285 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.249348 seconds.
-  path: Assets/Materials/Effect/Noise01.jpg
-  artifactKey: Guid(93b29b54bb5774143857e8d24cf2c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Effect/Noise01.jpg using Guid(93b29b54bb5774143857e8d24cf2c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c439f977a41bbeb62c26ea57c5eeeb0') in 0.037592 seconds 
+  Time since last request: 74.369831 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fc99d93b65114918b8fc5f9f52a2a6') in 0.015031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.579864 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f923f3af9b62fba5abe6881d931b9e') in 0.014845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 473.890255 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09353d512334fb011565dc426c3800') in 0.038874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.770979 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f54c82b561304752ab9d00354ff89b') in 0.016053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.331424 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b13b1cacbad0cbc6a66a1c7f5a09f45') in 0.033084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 929.003340 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efdcb3f3bc8befd851f3760cf4b4540') in 0.019132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.719524 seconds.
+  path: Assets/Materials/Effect/Portal.shadergraph
+  artifactKey: Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.shadergraph using Guid(94e3937c8c2157149bf4d09f01896573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65414de4bdc5bf680dc9d83d8d8dca16') in 0.003540 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.026322 seconds.
+Registered in 0.004297 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.814 seconds
+- Completed reload, in  1.608 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3911 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.1 MB.
-System memory in use after: 163.1 MB.
+Unloading 3910 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 161.6 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4528.
-Total: 3.863300 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.238400 ms MarkObjects: 2.089900 ms  DeleteObjects: 1.141900 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4497.
+Total: 5.124900 ms (FindLiveObjects: 0.468400 ms CreateObjectMapping: 0.885600 ms MarkObjects: 2.589700 ms  DeleteObjects: 1.179800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 441.168748 seconds.
+  path: Assets/Materials/Effect/Portal.mat
+  artifactKey: Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Effect/Portal.mat using Guid(2bbd4a98b05a6d848929a6174d52469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3555a2a498bcf10ec3bd449c5ef627f2') in 0.257593 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
